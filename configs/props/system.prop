@@ -24,6 +24,10 @@ persist.data.df.iwlan_mux=9
 persist.data.df.mux_count=8
 persist.data.df.ul_mode=5
 
+# Google
+ro.opa.device_model_id=motorola-eqs
+ro.opa.eligible_device=true
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1

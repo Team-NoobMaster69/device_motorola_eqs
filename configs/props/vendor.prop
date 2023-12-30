@@ -118,6 +118,7 @@ ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=8
 
 # Bluetooth
+bluetooth.device.default_name=motorola edge 30 ultra
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3300
@@ -165,6 +166,7 @@ vendor.qcom.bluetooth.soc=hastings
 # Camera
 camera.disable_zsl_mode=1
 persist.vendor.camera.privapp.list=com.motorola.camera3
+persist.vendor.camera.physical.num=4
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
@@ -264,6 +266,9 @@ debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+# Motorola
+ro.mot.build.customerid=global
+
 # NFC
 ro.nfc.port=I2C
 
@@ -319,6 +324,13 @@ persist.vendor.radio.enable_temp_dds=true
 persist.vendor.rcs.presence.provision=0
 ro.vendor.radio.imei.sv=4
 ro.vendor.use_data_netmgrd=true
+
+# Sensors
+persist.vendor.sensors.enable.mag_filter=true
+persist.vendor.sensors.mot_tap=true
+ro.vendor.sensors.glance_approach=false
+ro.vendor.sensors.mot_drop=true
+persist.vendor.sensors.mot_tap=true
 
 # Shutdown
 sys.vendor.shutdown.waittime=500
